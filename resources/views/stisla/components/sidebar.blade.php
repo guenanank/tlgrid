@@ -31,7 +31,6 @@
                     <li><a href="{{ route('groups.index') }}" class="nav-link">Group</a></li>
                     <li><a href="{{ route('media.index') }}" class="nav-link">Media</a></li>
                     <li><a href="{{ route('channels.index') }}" class="nav-link">Channel</a></li>
-                    <li><a href="#" class="nav-link">Visual Interactive</a></li>
                     <li><a href="#" class="nav-link">RSS</a></li>
                 </ul>
             </li>
