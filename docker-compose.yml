@@ -3,11 +3,11 @@ version: '3'
 services:
     laravel.test:
         build:
-            context: ./docker/8.0
+            context: ./docker/8.1
             dockerfile: Dockerfile
             args:
                 WWWGROUP: '${WWWGROUP}'
-        image: sail-8.0/app
+        image: sail-8.1/app
         extra_hosts:
             - 'host.docker.internal:host-gateway'
             - 'gateway.test:127.0.0.1'
@@ -116,6 +116,8 @@ services:
             MONGO_INITDB_DATABASE: '${DB_DATABASE}'
         volumes:
             - 'sailmongo:/data/db'
+        ports:
+            - 27017:27017
         networks:
             - sail
 networks:

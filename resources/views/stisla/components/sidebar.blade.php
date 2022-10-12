@@ -86,6 +86,17 @@
                     <li><a href="#" class="nav-link">Push Notifications</a></li>
                 </ul>
             </li>
+            <li class="dropdown">
+                <a href="#" class="nav-link has-dropdown">
+                    <i class="fas fa-fw fa-spa"></i><span>Microsites</span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#" class="nav-link">Overviews</a></li>
+                    <li><a href="#" class="nav-link">Categories</a></li>
+                    <li><a href="#" class="nav-link">Posts</a></li>
+                    <li><a href="#" class="nav-link">Assets</a></li>
+                </ul>
+            </li>
             <li class="menu-header">Ads Management</li>
             <li class="dropdown">
                 <a href="#" class="nav-link has-dropdown">

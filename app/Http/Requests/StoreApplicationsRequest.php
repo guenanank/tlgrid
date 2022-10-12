@@ -27,7 +27,7 @@ class StoreApplicationsRequest extends FormRequest
         return [
             'name' => 'required|string|max:127',
             'target' => 'required|string|max:31',
-            'sub' => 'required|exists:applications,_id',
+            'sub' => 'nullable|exists:applications,_id',
             'icon' => 'nullable|string|max:63'
         ];
     }

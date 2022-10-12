@@ -31,7 +31,7 @@ class UpdateGroupsRequest extends FormRequest
             ],
             'name' => 'required|string|max:63',
   
-            'analytics.propertyId' => 'nullable|alpha_num',
+            'analytics.propertyId' => 'nullable|alpha_dash',
   
             'meta.title' => 'nullable',
             'meta.description' => 'nullable|string',

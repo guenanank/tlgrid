@@ -31,7 +31,7 @@ class StoreGroupsRequest extends FormRequest
             ],
             'name' => 'required|string|max:63',
 
-            'analytics.propertyId' => 'nullable|alpha_num',
+            'analytics.propertyId' => 'nullable|alpha_dash',
 
             'meta.title' => 'nullable|string|max:127',
             'meta.description' => 'nullable|string',

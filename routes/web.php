@@ -32,7 +32,7 @@ use App\Http\Controllers\ChannelsController;
 
 require __DIR__.'/auth.php';
 
-Route::middleware('auth')->group(function () {
+// Route::middleware('auth')->group(function () {
     
     Route::get('/', [DashboardController::class, 'index']);
     
@@ -44,5 +44,5 @@ Route::middleware('auth')->group(function () {
         'channels' => ChannelsController::class,
     ]);
 
-    Route::post('/logout', [AuthenticatedSessionController::class, 'destroy'])->name('logout');
-});
+    // Route::post('/logout', [AuthenticatedSessionController::class, 'destroy'])->name('logout');
+// });
