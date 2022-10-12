@@ -28,9 +28,9 @@
                     <i class="fas fa-fw fa-layer-group"></i><span>Publishings</span>
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a href="{{ route('groups.index') }}" class="nav-link">Group</a></li>
+                    <li><a href="{{ route('groups.index') }}" class="nav-link">Groups</a></li>
                     <li><a href="{{ route('media.index') }}" class="nav-link">Media</a></li>
-                    <li><a href="{{ route('channels.index') }}" class="nav-link">Channel</a></li>
+                    <li><a href="{{ route('channels.index') }}" class="nav-link">Channels</a></li>
                     <li><a href="#" class="nav-link">RSS</a></li>
                 </ul>
             </li>
@@ -44,9 +44,9 @@
                     <i class="fas fa-fw fa-people-carry"></i><span>Helpdesk</span>
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a href="#" class="nav-link">Access</a></li>
+                    <li><a href="#" class="nav-link">Request Access</a></li>
                     <li><a href="#" class="nav-link">System Change</a></li>
-                    <li><a href="#" class="nav-link">Terminate</a></li>
+                    <li><a href="#" class="nav-link">Terminate Access</a></li>
                 </ul>
             </li>
             <li class="menu-header">Contents</li>
